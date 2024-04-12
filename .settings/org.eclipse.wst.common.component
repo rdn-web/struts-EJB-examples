@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
+    <wb-module deploy-name="struts_login_valid">
+                
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="commons-io-2.6.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/softwares/struts-2.5.33/lib/commons-io-2.6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="log4j-api-2.12.4.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/softwares/struts-2.5.33/lib/log4j-api-2.12.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javassist-3.20.0-GA.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/softwares/struts-2.5.33/lib/javassist-3.20.0-GA.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ognl-3.1.29.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/softwares/struts-2.5.33/lib/ognl-3.1.29.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="freemarker-2.3.31.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/softwares/struts-2.5.33/lib/freemarker-2.3.31.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-fileupload-1.4.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/softwares/struts-2.5.33/lib/commons-fileupload-1.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-lang3-3.8.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/softwares/struts-2.5.33/lib/commons-lang3-3.8.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="struts2-core-2.5.33.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/softwares/struts-2.5.33/lib/struts2-core-2.5.33.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+                
+        <property name="context-root" value="struts_login_valid"/>
+                
+        <property name="java-output-path" value="/struts_login_valid/build/classes"/>
+            
+    </wb-module>
+    
+</project-modules>
